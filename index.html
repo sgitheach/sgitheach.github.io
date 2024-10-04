@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="home">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,12 +19,39 @@
     <![endif]-->
   </head>
   <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="#home" class="navbar-brand page-scroll">Sandhika Galih</a>
+        </div>
+        
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about" class="page-scroll">About</a></li>
+            <li><a href="#portfolio" class="page-scroll">Portfolio</a></li>
+            <li><a href="#contact" class="page-scroll">Contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+    <!-- akhir navbar -->
     
     <!-- jumbotron -->
     <div class="jumbotron text-center">
       <img src="img/sandhika.png" class="img-circle">
-      <h1>Dimas Fadillah Kusuma Wardana</h1>
-      <p>Web Developer</p>
+      <h1>Sandhika Galih</h1>
+      <p>Lecturer | Web Developer | YouTuber</p>
     </div>
     <!-- akhir jumbotron -->
 
@@ -40,10 +67,10 @@
         </div>
 
         <div class="row">
-          <div class="col-sm-5 col-sm-offset-1">
+          <div class="col-sm-5 col-sm-offset-1 kiri">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta aut fuga recusandae ad vero voluptates voluptatibus iusto expedita voluptas animi itaque, ratione commodi pariatur. Quia veniam hic eius iure quis.</p>
           </div>
-          <div class="col-sm-5">
+          <div class="col-sm-5 kanan">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ipsam, veritatis nesciunt eveniet voluptas labore quidem recusandae enim, repudiandae ab accusantium consectetur minus optio adipisci voluptates omnis consequuntur dolore qui?</p>
           </div>
         </div>
@@ -116,15 +143,15 @@
             <form>
               <div class="form-group">
                 <label for="nama">Nama</label>
-                <input type="text" id="nama" class="form-control" placeholder="Dimas Fadillah">
+                <input type="text" id="nama" class="form-control" placeholder="masukkan nama">
               </div>
               <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" id="email" class="form-control" placeholder="fadillahkusumawardana21@gmail.com">
+                <input type="email" id="email" class="form-control" placeholder="masukkan email">
               </div>
               <div class="form-group">
                 <label for="telp">No Telepon</label>
-                <input type="tel" id="telp" class="form-control" placeholder=081511666190">
+                <input type="tel" id="telp" class="form-control" placeholder="masukkan no telepon">
               </div>
               <select class="form-control">
                 <option>-- Pilih Kategori --</option>
@@ -163,9 +190,12 @@
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+   <script src="js/script.js"></script>
   </body>
 </html>
 
