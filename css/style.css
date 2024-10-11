@@ -9,7 +9,7 @@ body {
 
 .jumbotron {
 	height: 500px;
-	background-image: url(../img/header-bg.jpeg);
+	background-image: url(../img/lemmy.jpeg);	
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: 0 -140px;
